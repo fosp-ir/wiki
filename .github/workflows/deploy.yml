@@ -45,6 +45,10 @@ jobs:
       - name: 🏗️ Build Site
         run: mkdocs build --strict --verbose --site-dir public
 
+      - name: Create CNAME file
+        run: |
+            echo "docs.fosp.ir" > public/CNAME
+
       - name: 📊 Size Check
         run: |
           echo "Site size: $(du -sh public | cut -f1)"
