@@ -1,0 +1,4 @@
+mkdocs-material[imaging]
+mkdocs-social-plugin
+imkdocs-minify-plugin
+mkdocs-git-committers-plugin-2
