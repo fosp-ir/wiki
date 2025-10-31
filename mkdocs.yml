@@ -49,3 +49,4 @@ plugins:
 nav:
   - خانه: index.md
   - راهنما: guide.md
+  - ماتریکس: matrix.md
