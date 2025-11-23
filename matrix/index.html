@@ -1,0 +1,1017 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="ویکی پروژه FOSP">
+      
+      
+      
+        <link rel="canonical" href="https://wiki.fosp.ir/matrix/">
+      
+      
+        <link rel="prev" href="../guide/">
+      
+      
+        <link rel="next" href="../fdroid/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>ماتریکس - ویکی FOSP</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="rtl" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ویکی FOSP" class="md-header__button md-logo" aria-label="ویکی FOSP" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ویکی FOSP
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ماتریکس
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="purple"  aria-label="حالت تیره"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="حالت تیره" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="cyan" data-md-color-accent="lime"  aria-label="حالت روشن"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="حالت روشن" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  خانه
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../guide/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  راهنما
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  ماتریکس
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../fdroid/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  اف دروید
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../searx/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  سرکس
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../fs/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  نرم افزار آزاد
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ویکی FOSP" class="md-nav__button md-logo" aria-label="ویکی FOSP" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ویکی FOSP
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    خانه
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    راهنما
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ماتریکس
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ماتریکس
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ماتریکس دقیقاً چیست؟
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        این سیستم چطور کار می‌کند؟ سه مفهوم اصلی
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="این سیستم چطور کار می‌کند؟ سه مفهوم اصلی">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ۱. سرورها (خانه‌های شما)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ۲. آیدی‌ها (آدرس شما)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ۳. اتاق‌ها (محیط گفتگو)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        رمزنگاری: جادوی حفظ حریم خصوصی
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        یک مثال ساده از همه چیز
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        چرا ماتریکس فوق‌العاده است؟
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        چطور شروع کنیم؟
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        هوم سرور های عمومی و رایگان
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        جمع‌بندی
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fdroid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    اف دروید
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../searx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    سرکس
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../fs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    نرم افزار آزاد
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ماتریکس دقیقاً چیست؟
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        این سیستم چطور کار می‌کند؟ سه مفهوم اصلی
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="این سیستم چطور کار می‌کند؟ سه مفهوم اصلی">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ۱. سرورها (خانه‌های شما)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ۲. آیدی‌ها (آدرس شما)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ۳. اتاق‌ها (محیط گفتگو)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        رمزنگاری: جادوی حفظ حریم خصوصی
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        یک مثال ساده از همه چیز
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        چرا ماتریکس فوق‌العاده است؟
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        چطور شروع کنیم؟
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_11" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        هوم سرور های عمومی و رایگان
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        جمع‌بندی
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">ماتریکس به زبان ساده: راهنمای کامل برای تازه‌کارها</h1>
+<p>آیا تا به حال به این فکر کرده‌اید که چرا نمی‌توانید از طریق واتس‌اپ برای دوستی در تلگرام پیام بفرستید؟ یا چرا تمام اطلاعات شما روی سرورهای یک شرکت خاص (مثل گوگل، متا یا تلگرام) ذخیره می‌شود؟</p>
+<p><strong>ماتریکس (Matrix)</strong> پاسخی به این سوالات است. ماتریکس یک اپلیکیشن چت ساده نیست، بلکه یک <strong>پروتکل</strong> باز و آزاد برای ارتباطات آنلاین است.</p>
+<p>در این مقاله به زبان خیلی ساده توضیح می‌دهیم که ماتریکس چیست و چطور کار می‌کند.</p>
+<h2 id="_2">ماتریکس دقیقاً چیست؟</h2>
+<p>بیایید با یک مثال شروع کنیم. <strong>ایمیل</strong> را در نظر بگیرید. شما یک حساب جیمیل دارید و دوستتان یک حساب یاهو. با این حال می‌توانید به راحتی برای هم ایمیل بفرستید. چرا؟ چون هر دو از یک زبان مشترک به نام <strong>پروتکل ایمیل</strong> پیروی می‌کنند.</p>
+<p><strong>ماتریکس هم دقیقاً همین کار را برای چت کردن و ارتباطات زنده انجام می‌دهد.</strong></p>
+<p>ماتریکس یک شبکه جهانی و باز برای گفتگو است، درست مانند وب برای وب‌سایت‌ها یا ایمیل برای نامه‌های الکترونیکی. هیچ شرکت یا فردی مالک آن نیست و هر کسی می‌تواند در آن مشارکت کند.</p>
+<blockquote>
+<p><strong>خلاصه:</strong> ماتریکس یک زبان مشترک برای تمام اپلیکیشن‌های چت است تا بتوانند با هم صحبت کنند.</p>
+</blockquote>
+<h2 id="_3">این سیستم چطور کار می‌کند؟ سه مفهوم اصلی</h2>
+<p>ماتریکس بر اساس سه ایده ساده ساخته شده است:</p>
+<h3 id="_4">۱. سرورها (خانه‌های شما)</h3>
+<p>در اپلیکیشن‌های معمولی، همه شما روی سرورهای یک شرکت مرکزی هستید. مثل یک آپارتمان بزرگ که یک مالک دارد.</p>
+<p>در ماتریکس، هر کس می‌تواند <strong>"سرور خانگی" (Homeserver)</strong> خودش را داشته باشد. این سرورها مثل خانه‌های شخصی هستند. شما می‌توانید روی سرور خودتان حساب کاربری بسازید، یا از سرورهای عمومی که دیگران فراهم کرده‌اند استفاده کنید.</p>
+<ul>
+<li><strong>چرا این خوب است؟</strong> چون هیچ نقطه مرکزی برای کنترل یا خاموش کردن همه وجود ندارد. اگر خانه شما (سرور شما) در دسترس نباشد، می‌توانید از طریق خانه‌های دیگر با دوستانتان صحبت کنید.</li>
+</ul>
+<h3 id="_5">۲. آیدی‌ها (آدرس شما)</h3>
+<p>چطور در این شبکه بزرگ یکدیگر را پیدا می‌کنید؟ هر کاربر در ماتریکس یک آیدی منحصر به فرد دارد که شبیه آدرس ایمیل است:</p>
+<p><code>@نامکاربری:نامسرور.com</code></p>
+<p>برای مثال: <code>@ali:matrix.org</code></p>
+<ul>
+<li><strong><code>@ali</code></strong> نام کاربری شماست.</li>
+<li><strong><code>matrix.org</code></strong> نام سروری است که حساب شما روی آن قرار دارد.</li>
+</ul>
+<p>این آیدی به شما اجازه می‌دهد با هر کسی در هر سرور دیگری در دنیا صحبت کنید.</p>
+<h3 id="_6">۳. اتاق‌ها (محیط گفتگو)</h3>
+<p>گفتگوها در ماتریکس در <strong>"اتاق‌ها" (Rooms)</strong> اتفاق می‌افتند. یک اتاق می‌تواند:
+*   یک چت خصوصی بین دو نفر باشد.
+*   یک گروه بزرگ با هزاران عضو باشد.
+*   یک کانال عمومی که همه بتوانند به آن بپیوندند.</p>
+<p>شما می‌توانید اتاقی را روی سرور خودتان بسازید و دوستانی که روی سرورهای دیگر هستند را به آن دعوت کنید.</p>
+<h2 id="_7">رمزنگاری: جادوی حفظ حریم خصوصی</h2>
+<p>یکی از بهترین ویژگی‌های ماتریکس، <strong>رمزنگاری سرتاسری (End-to-End Encryption - E2EE)</strong> است. بیایید این مفهوم پیچیده را با یک مثال ساده توضیح دهیم:</p>
+<p>تصور کنید می‌خواهید یک نامه محرمانه برای دوستتان بفرستید.
+1.  نامه را می‌نویسید و آن را داخل یک <strong>جعبه جادویی</strong> می‌گذارید.
+2.  این جعبه را با یک <strong>قفل ویژه</strong> می‌بندید. کلید این قفل فقط یک نسخه دارد و آن را بین شما و دوستتان تقسیم کرده‌اید. فقط شما دو نفر کلید را دارید.
+3.  جعبه قفل‌شده را به اداره پست (که در اینجا <strong>سرور ماتریکس</strong> است) می‌سپارید.
+4.  اداره پست (سرور) جعبه را به دست دوستتان می‌رساند، اما <strong>هیچ راهی برای باز کردن آن و خواندن نامه داخلش ندارد.</strong>
+5.  دوستتان با استفاده از نسخه کلیدی که در اختیار دارد، جعبه را باز کرده و نامه شما را می‌خواند.</p>
+<p>در ماتریکس هم دقیقاً همین اتفاق می‌افتد. پیام‌های شما قبل از ارسال از روی گوشی یا کامپیوترتان رمزنگاری می‌شوند و فقط توسط دستگاه گیرنده قابل باز شدن هستند.</p>
+<blockquote>
+<p><strong>نتیجه مهم:</strong> حتی مدیران سرورهایی که از آن‌ها استفاده می‌کنید هم <strong>نمی‌توانند</strong> پیام‌های شما را بخوانند. حریم خصوصی شما کاملاً تضمین شده است.</p>
+</blockquote>
+<h2 id="_8">یک مثال ساده از همه چیز</h2>
+<p>فرض کنید <strong>علی</strong> روی سرور <code>serverA.com</code> و <strong>سارا</strong> روی سرور <code>serverB.com</code> حساب دارند.</p>
+<ol>
+<li>علی در یک اتاق مشترک، پیامی برای سارا می‌نویسد.</li>
+<li>اپلیکیشن علی، پیام را با "جعبه جادویی" (رمزنگاری) قفل می‌کند.</li>
+<li>پیام قفل‌شده به سرور خانگی علی (<code>serverA.com</code>) فرستاده می‌شود.</li>
+<li>سرور <code>serverA.com</code> نمی‌داند سارا کیست، اما می‌داید که باید پیام را به سرور سارا (<code>serverB.com</code>) تحویل دهد. پس پیام را برای آن سرور می‌فرستد.</li>
+<li>سرور <code>serverB.com</code> پیام قفل‌شده را دریافت کرده و در حساب کاربری سارا قرار می‌دهد.</li>
+<li>وقتی سارا اپلیکیشن خود را باز می‌کند، اپلیکیشن او با استفاده از کلید مشترک، جعبه را باز کرده و پیام علی را به او نشان می‌دهد.</li>
+</ol>
+<p>تمام این فرآیند به صورت خودکار و در چند ثانیه اتفاق می‌افتد.</p>
+<h2 id="_9">چرا ماتریکس فوق‌العاده است؟</h2>
+<ul>
+<li><strong>استقلال و عدم متمرکز بودن:</strong> هیچ شرکت یا دولتی کنترل شبکه را در دست ندارد. این شبکه متعلق به کاربرانش است.</li>
+<li><strong>مالکیت داده‌ها:</strong> چون می‌توانید سرور خودتان را داشته باشید، داده‌های شما همیشه متعلق به خود شماست.</li>
+<li><strong>حریم خصوصی واقعی:</strong> رمزنگاری سرتاسری به صورت پیش‌فرض، امنیت شما را تضمین می‌کند.</li>
+<li><strong>یکپارچگی:</strong> مهم نیست از چه اپلیکیشن یا سروری استفاده می‌کنید، می‌توانید با بقیه در ارتباط باشید.</li>
+</ul>
+<h2 id="_10">چطور شروع کنیم؟</h2>
+<p>برای استفاده از ماتریکس به دو چیز نیاز دارید:
+1.  <strong>یک سرور:</strong> نیازی نیست خودتان سرور بسازید! می‌توانید از سرورهای عمومی و رایگان استفاده کنید.
+2.  <strong>یک کلاینت (اپلیکیشن):</strong> این نرم‌افزاری است که با آن وارد ماتریکس می‌شوید و چت می‌کنید.</p>
+<p>پیشنهاد من برای نصب یک کلاینت:</p>
+<table>
+<thead>
+<tr>
+<th>اندروید/آی او اس</th>
+<th>ویندوز/لینوکس</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://f-droid.org/packages/io.element.android.x/">Element X</a></td>
+<td><a href="https://schildi.chat">SchildiChat</a></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>کلاینت مورد نظر را برای موبایل یا دسکتاپ خود دانلود کنید.</li>
+<li>هنگام ثبت‌نام، به شما پیشنهاد استفاده از یک سرور عمومی را می‌دهد (مثل <code>matrix.envs.net</code>). کافیست Accept کنید.</li>
+<li>تمام! حالا می‌توانید با آیدی ماتریکس خودتان با دیگران صحبت کنید.</li>
+</ul>
+<h2 id="_11">هوم سرور های عمومی و رایگان</h2>
+<ul>
+<li><a href="https://wiiz.ir">ویز</a></li>
+<li><a href="https://element.envs.net">envs.net</a></li>
+<li><a href="https://element.matrix.org">ماتریکس</a></li>
+</ul>
+<h2 id="_12">جمع‌بندی</h2>
+<p>ماتریکس فقط یک اپلیکیشن چت دیگر نیست؛ یک آینده جدید برای ارتباطات آنلاین است. آینده‌ای که در آن کاربران کنترل داده‌ها و حریم خصوصی خود را در دست دارند و همه می‌توانند بدون محدودیت با هم در ارتباط باشند. این پروژه قدرتمند در حال رشد است و شما هم می‌توانید بخشی از آن باشید.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      
+
+<div class="md-copyright">
+    فاسپ ویکی! ساخته شده توسط  <a href="https://github.com/squidfunk/mkdocs-material">MkDocs</a>
+</div>
+
+
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.follow", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
