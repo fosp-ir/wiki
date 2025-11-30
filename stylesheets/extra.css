@@ -1,0 +1,16 @@
+@font-face {
+    src: url("https://pyrobale.ir/arad.ttf") format("truetype");
+    font-family: 'Arad';
+}
+
+:root {
+  --md-text-font: "Arad", "Segoe UI", Tahoma, sans-serif;
+}
+
+[dir=rtl] {
+  text-align: right;
+}
+
+body {
+  font-family: "Arad", "Segoe UI", Tahoma, sans-serif;
+}
